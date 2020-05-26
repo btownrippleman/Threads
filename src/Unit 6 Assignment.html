@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head lang="en">
+		<link href="/shared/HTML Templates/OrdinaryBlue/TemplateFiles/stylesheet.css" type="text/css" rel="stylesheet" />
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<title>Sample Content Topic</title>
+		<base target="_blank">
+	</head>
+	<body>
+<div id="container">
+<div id="decorative"></div>
+<div id="header">
+<div class="&ldquo;overlay&rdquo;" 100="" width:="" 890px="">
+<h1>Assignment Details</h1>
+<div id="body">
+<p><strong>Unit 6 Assignment: Threads and Simulation</strong></p>
+<p><strong>Unit Outcomes:</strong></p>
+<ul>
+<li>Understand the different synchronization techniques.</li>
+<li>Create a program that demonstrates the use of threads.</li>
+<li>Use the source code management system to store the program source code.</li>
+</ul>
+<p><strong>Course Outcome:</strong></p>
+<ul>
+<li><strong>IT481-4:</strong>&nbsp;Implement algorithms that allow analysis and optimization.</li>
+</ul>
+<p><strong>General Education Literacy Outcome:</strong></p>
+<ul>
+<li><strong>GEL-2.3:</strong>&nbsp;Solve real-world problems using mathematical skills.</li>
+</ul>
+<p><strong>Instructions:</strong></p>
+<p>A clothing company is building a new store. They want to determine the optimum (but fixed) number of dressing rooms they should install in this location.</p>
+<p>In your Assignment as a software consultant, you will create a simulation of the clothing store. By running a software model, you will be able to examine different scenarios to determine the optimal configuration of the store and appropriate number of dressing rooms</p>
+<p>You must create a scenario in which a group of customers will be waiting to use the dressing rooms.</p>
+<p>Each customer may take up to six clothing items into a dressing room.</p>
+<p>Each item of clothing is estimated to take 1 to 3 minutes to try on.</p>
+<p>Once the customer has attempted to fit into each of the items, the customer will leave the dressing room.</p>
+<p>Leaving the dressing room makes the room available for another customer.</p>
+<p>In each scenario, use variables to determine the number of customers and dressing rooms.</p>
+<p>Use a random number function to determine the number of items for each customer.</p>
+<p><em>DressingRooms</em>&nbsp;will be a class, and there will only be one instance of&nbsp;<em>DressingRooms</em>.</p>
+<ul>
+<li>The default constructor will use three rooms as the default.</li>
+<li>The constructor takes a parameter that sets the number of rooms available.</li>
+<li>Use a semaphore object to control access to the rooms.</li>
+<li>Supply a public RequestRoom() method that the customer will use to gain access.</li>
+<li>A RequestRoom method waits for an available room.</li>
+</ul>
+<p><em>Customer</em>&nbsp;will be implemented as a thread.</p>
+<ul>
+<li>Allow for a parameter named&nbsp;<em>NumberOfItems</em>&nbsp;.</li>
+<li><em>ClothingItems</em>&nbsp;= 0 will indicate the use of a random number.</li>
+<li><em>ClothingItems</em>&nbsp;= 1 &ndash; 20 will allow for load testing by forcing a specific number of items.</li>
+<li>The store policy is a maximum of six items, but this may be modified during a test.</li>
+</ul>
+<p><em>Scenario</em>&nbsp;will be a class.</p>
+<ul>
+<li>Create a constructor that accepts:
+<ul>
+<li>The number of rooms available.</li>
+<li>The number of customers.</li>
+</ul>
+</li>
+<li>Create rooms as specified.</li>
+<li>Create customers as specified</li>
+</ul>
+<p>Create each scenario to execute in a routine called&nbsp;<em>scenarioXX</em>where XX is a number.</p>
+<ul>
+<li>Each scenario will record a start time and an end time.</li>
+<li>The elapsed time will be calculated from those variables.</li>
+<li>Calculate the number of customers.</li>
+<li>Calculate the average number of items.</li>
+<li>Calculate the average usage time of the room.</li>
+<li>Calculate the time spent waiting for a room.</li>
+</ul>
+<p>Create at least three scenarios to examine different possibilities. Use the parameters given in the rubric.</p>
+<p>When you have completed the work, write a 1-page paper (plus a cover page) summarizing your results. Write in full sentences and paragraph form, with subheadings where you feel it is necessary to show the organization of your ideas and content. On another page in the same document, provide a screenshot of your project within your source code management system.</p>
+<p>Be sure to include both in-text citations and references for all sources. For more information on APA style formatting, go to Academic Writer, formerly APA Style Central, under the Academic Tools area of this course.</p>
+<p><strong>Plagiarism</strong></p>
+<p>Plagiarism is an act of academic dishonesty. It violates the University Honor Code, and the offense is subject to disciplinary action. You are expected to be the sole author of your work. Use of another person's work or ideas must be accompanied by specific citations and references. Whether the action is intentional or not, it still constitutes plagiarism.</p>
+<p>For more information on University&rsquo;s Plagiarism policy, refer to the current <a href="http://catalog.purdueglobal.edu/">University Catalog</a>.</p>
+<p><strong>Directions for Submitting Your Assignment</strong></p>
+<p>Name your Assignment document according to this convention: FirstName_LastName_Unit6_IT481 (use your own name, of course). Submit your completed Assignment to the Unit 6 Dropbox by the deadline.</p>
+<p><strong>Review the rubric before beginning this activity.</strong></p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
